@@ -1,0 +1,20 @@
+section .word {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem
+}
+
+section .error {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem
+}
+
+section > p {
+  color: red;
+  width: 20px;
+  height: 20px;
+  background: orange;
+  border: 2px solid red;
+  border-radius: 5px;
+}
